@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="w-4/5">
     <p class="mt-0 uppercase font-bold text-slate-400 mb-1">
       Lesson {{ chapter.number }} - {{ lesson.number }}
     </p>
