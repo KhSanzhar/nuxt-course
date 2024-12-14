@@ -9,18 +9,23 @@ export default defineNuxtConfig({
       stripeKey: '',
     },
   },
+
   nitro: {
     prerender: {
       routes: ['/landing'],
     },
   },
+
   vite: {
     plugins: [vsharp()],
   },
+
   modules: [
     '@nuxtjs/tailwindcss',
     '@vueuse/nuxt',
     '@nuxtjs/supabase',
     '@pinia/nuxt',
   ],
+
+  compatibilityDate: '2024-12-14',
 });
